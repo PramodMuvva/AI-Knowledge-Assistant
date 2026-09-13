@@ -1,0 +1,77 @@
+.app {
+  min-height: 100vh;
+  padding: 40px;
+  background: #f5f7fa;
+  color: #1f2937;
+}
+
+header {
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #6b7280;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+input {
+  margin: 15px 0;
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  resize: vertical;
+  font-size: 16px;
+}
+
+button {
+  display: block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #111827;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.file-name {
+  color: #4b5563;
+}
+
+.answer-section {
+  line-height: 1.7;
+}
